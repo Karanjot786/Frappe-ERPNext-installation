@@ -1,5 +1,5 @@
 # Frappe-ERPNext-v13 installation
-To install v13 of Frappe and ERPNext.
+To install v13 or v14 of Frappe and ERPNext.
   
 ## Instruction
 -  Open terminal and execute
