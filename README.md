@@ -1,4 +1,4 @@
-# Frappe-ERPNext-v13 installation
+# Frappe-ERPNext-v13 v14 installation
 To install v13 or v14 of Frappe and ERPNext.
   
 ## Instruction
