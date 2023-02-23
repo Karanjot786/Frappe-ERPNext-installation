@@ -64,11 +64,11 @@ python --version
 pip3 install frappe-bench==5.16.1
 rm -rf frappe_v13
 
-bench init --frappe-branch frappe_v14
+bench init --frappe-branch v14.26.0 frappe_v14
 cd frappe_v14
 
 pyenv local 3.11.2
-bench get-app erpnext --branch
+bench get-app erpnext --branch v14.26.0
 
 
 echo "Thanks for using script. Now use "bench new-site"
