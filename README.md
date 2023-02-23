@@ -4,6 +4,7 @@ To install v13 of Frappe and ERPNext.
 ## Instruction
 -  Open terminal and execute
   ```. v13script.sh```
+  ```. v14script.sh```
 - Script will ask for some inputs, enter them accordingly.
   
   
