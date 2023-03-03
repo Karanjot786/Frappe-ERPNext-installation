@@ -53,16 +53,16 @@ echo 'eval "$(pyenv init -)"' >> ~/.bashrc
 
 . ~/.bashrc
 
-pyenv install 3.11.2
+pyenv install 3.11
 
 cd
 
-pyenv shell 3.11.2
+pyenv shell 3.11
 
 python --version
 
 pip3 install frappe-bench==5.16.1
-rm -rf frappe_v13
+rm -rf frappe_v14
 
 bench init --frappe-branch v14.26.0 frappe_v14
 cd frappe_v14
