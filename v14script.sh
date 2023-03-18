@@ -17,7 +17,7 @@ sudo aptitude install git make build-essential libssl-dev figlet zlib1g-dev -y
 sudo aptitude install libbz2-dev libreadline-dev libsqlite3-dev wget curl llvm -y
 sudo aptitude install libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev redis mariadb-server cron -y
 sudo aptitude install supervisor -y
-curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+curl -fsSL https://deb.nodesource.com/setup_18.x | sudo -E bash -
 sudo aptitude install -y nodejs
 sudo aptitude update -y
 sudo aptitude install npm -y
@@ -53,23 +53,23 @@ echo 'eval "$(pyenv init -)"' >> ~/.bashrc
 
 . ~/.bashrc
 
-pyenv install 3.11
+pyenv install 3.10.7
 
 cd
 
-pyenv shell 3.11
+pyenv shell 3.10.7
 
 python --version
 
-pip3 install frappe-bench==5.16.1
+pip3 install frappe-bench==5.16.2
 rm -rf frappe_v14
 
-bench init --frappe-branch v14.26.0 frappe_v14
+bench init --frappe-branch v14.27.0 frappe_v14
 cd frappe_v14
 
-pyenv local 3.11.2
-bench get-app erpnext --branch v14.26.0
+pyenv local 3.10.7
+bench get-app erpnext --branch v14.27.0
 
 
-echo "Thanks for using script. Now use "bench new-site"
-echo "- Envy" | figlet -f slant
+echo "Thanks for using script. Now use bench new-site"
+echo "Karanjot Singh" | figlet -f slant

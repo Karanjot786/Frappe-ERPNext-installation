@@ -7,7 +7,9 @@ To install v13 or v14 of Frappe and ERPNext.
 git clone https://github.com/Karanjot786/Frappe-ERPNext-installation.git
 ```
   ```bash
+  chmod u+r+x v13script.sh
   ./v13script.sh
+  chmod u+r+x v14script.sh
   ./v14script.sh
   ```
 - Script will ask for some inputs, enter them accordingly.
