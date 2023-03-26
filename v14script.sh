@@ -55,7 +55,7 @@ echo 'eval "$(pyenv init -)"' >> ~/.bashrc
 
 pyenv install 3.10.7
 
-cd
+#cd
 
 pyenv shell 3.10.7
 
@@ -64,11 +64,11 @@ python --version
 pip3 install frappe-bench==5.16.2
 rm -rf frappe_v14
 
-bench init --frappe-branch v14.27.0 frappe_v14
+bench init --frappe-branch v14.29.1 frappe_v14
 cd frappe_v14
 
 pyenv local 3.10.7
-bench get-app erpnext --branch v14.27.0
+bench get-app erpnext --branch v14.19.0
 
 
 echo "Thanks for using script. Now use bench new-site"
